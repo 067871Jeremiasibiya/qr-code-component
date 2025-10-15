@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-  <title>Frontend Mentor | QR code component</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="QR code component solution for Frontend Mentor challenge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
+  <title>Frontend Mentor | QR code component</title>
 </head>
 <body>
-
-  <div class="card">
-    <img src="images/image-qr-code.png" alt="QR code" />
-    <div class="container">
-      <h4><b>Improve your front-end skills by building projects</b></h4>
-      <p>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.
-      </p>
-      <p style="margin-top: 16px;">
-        Challenge by 
-        <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">OstinJaylow</a>.
-      </p>
-    </div>
-  </div>
-
+  <main class="main-content">
+    <h1 class="sr-only">QR Code Component</h1>
+    <article class="card">
+      <img src="images/image-qr-code.png" alt="QR code to Frontend Mentor website" width="288" height="288">
+      <div class="container">
+        <h2 class="card__title">Improve your front-end skills by building projects</h2>
+        <p class="card__description">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.
+        </p>
+      </div>
+    </article>
+  </main>
+  
+  <footer class="attribution">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io/" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>.
+      Coded by <a href="#">OstinJaylow</a>.
+    </p>
+  </footer>
 </body>
 </html>
